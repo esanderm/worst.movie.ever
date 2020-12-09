@@ -1,0 +1,53 @@
+{
+  "type": "network",
+  "version": "1.0",
+  "data": "data.json",
+  "logo": {
+    "file": "",
+    "link": "",
+    "text": "Erin"
+  },
+  "text": {
+    "more": "This network visualization depicts the films that are listed as the bottom 30 films on IMDB, Rotten Tomatoes, MetaCritic and Letterboxd as of December 8, 2020. \nFilm information taken from the following pages. \n\nIMDB: https://www.imdb.com/chart/bottom\nRotten Tomatoes: https://editorial.rottentomatoes.com/guide/worst-movies-of-all-time/\nMetaCritic: https://www.metacritic.com/browse/movies/score/metascore/all/filtered?view\u003dcondensed\u0026page\u003d136\nLetterboxd: https://letterboxd.com/films/by/rating-lowest/\n\nDue to the dynamic nature of all of these services and ratings, this will likely become inaccurate in the very near future. Also, expanding this visualization to show the bottom 100  from each service would yield more connections. ",
+    "intro": "A network visualization of the bottom 30 films from IMDB, Rotten Tomatoes, MetaCritic and Letterbox, as of Dec 8, 2020. ",
+    "title": "Worst.Movie.Ever"
+  },
+  "legend": {
+    "edgeLabel": "Connections",
+    "colorLabel": "Yes",
+    "nodeLabel": "Films and Aggregators"
+  },
+  "features": {
+    "search": true,
+    "groupSelectorAttribute": false,
+    "hoverBehavior": "default"
+  },
+  "informationPanel": {
+    "groupByEdgeDirection": false,
+    "imageAttribute": false
+  },
+  "sigma": {
+    "drawingProperties": {
+      "defaultEdgeType": "curve",
+      "defaultHoverLabelBGColor": "#002147",
+      "defaultLabelBGColor": "#ddd",
+      "activeFontStyle": "bold",
+      "defaultLabelColor": "#000",
+      "labelThreshold": 10,
+      "defaultLabelHoverColor": "#fff",
+      "fontStyle": "bold",
+      "hoverFontStyle": "bold",
+      "defaultLabelSize": 14
+    },
+    "graphProperties": {
+      "maxEdgeSize": 0.5,
+      "minEdgeSize": 0.2,
+      "minNodeSize": 1,
+      "maxNodeSize": 7
+    },
+    "mouseProperties": {
+      "maxRatio": 20,
+      "minRatio": 0.75
+    }
+  }
+}
